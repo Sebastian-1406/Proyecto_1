@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- estilos -->
+
+    <link rel="stylesheet" href="./style/estilos.css">
+
+    <!-- google fonts -->
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');</style>
+    
+    <!-- iconos -->
+
+    <script src="https://kit.fontawesome.com/99c003c808.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="header">
+            <h1 class="header__titulo">Learn to code by watching others</h1>
+            <p class="header__titulo-parrafo">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </header>
+    <main class="principal">
+        <section>
+            <a href="#" class="principal__oferta"><span class="principal__oferta-negrita">Try it free 7 days </span>then $20/mo. thereafter</a>
+        </section>
+        <section>
+            <form class="formulario" autocomplete="off">
+                <div class="formulario__nombre">
+                    <input class="formulario__input" type="text" placeholder="Firs Name" name="nombre">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p class="formulario__mensaje">First Name cannot be empty</p>
+                </div>
+                <div class="formulario__apellido">
+                    <input class="formulario__input" type="text" placeholder="Last Name" name="apellido">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p class="formulario__mensaje">Last Name cannot be empty</p>
+                </div>
+                <div class="formulario__email">
+                    <input class="formulario__input" type="text" placeholder="Email Address" name="email">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p class="formulario__mensaje">Looks like this not an email</p>
+                </div>
+                <div class="formulario__password">
+                    <input class="formulario__input" type="password" placeholder="Password" name="">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p class="formulario__mensaje">Password cannot be empaty</p>
+                </div>     
+                <input class="formulario__input formulario__input-enviar" type="submit" value="CLAIM YOUR FREE TRIAL">
+                <p class="formulario__terminos">By clicking the button, you are agreeing to our <span class="formulario__terminos-negrita">Terms and Services</span></p>
+            </form>
+        </section>
+    </main>
+
+    <script src="./app/app.js"></script>
+
+</body>
+</html>
